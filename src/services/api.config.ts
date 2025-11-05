@@ -15,8 +15,10 @@ import axios from "axios";
 
 // URL base da API - altere conforme necessário
 const getBaseURL = () => {
-  // Em desenvolvimento, detectar se é Android, iOS ou Web
-  if (__DEV__) {
+  // Verificar se está em modo de desenvolvimento
+  const isDevelopment = typeof __DEV__ !== 'undefined' && __DEV__;
+  
+  if (isDevelopment) {
     // Para Android Emulator
     return "http://192.168.1.246:3333";
 
@@ -24,11 +26,11 @@ const getBaseURL = () => {
     // return 'http://192.168.1.100:3333';
 
     // Para Expo Go, use o IP da sua máquina
-    // return 'http://SEU_I P_AQUI:3333';
+    // return 'http://SEU_IP_AQUI:3333';
   }
 
-  // Em produção
-  return "https://api.camaraibirapitanga.ba.gov.br";
+  // Em produção (web build)
+  return "https://api.camara.marau.kssoft.com.br";
 };
 
 // Instância do axios configurada

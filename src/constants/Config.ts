@@ -3,17 +3,17 @@
 export const Config = {
   // Informações do aplicativo
   app: {
-    name: "Legislativo Ibirapitanga",
+    name: "Legislativo Maraú",
     version: "1.0.0",
-    description: "Aplicativo oficial da Câmara Municipal de Ibirapitanga",
+    description: "Aplicativo oficial da Câmara Municipal de Maraú",
   },
 
   // Informações institucionais
   camara: {
-    nome: "CÂMARA MUNICIPAL DE IBIRAPITANGA",
-    cidade: "Ibirapitanga",
+    nome: "CÂMARA MUNICIPAL DE MARAÚ",
+    cidade: "Maraú",
     estado: "BA",
-    nomeCompleto: "Câmara Municipal de Vereadores de Ibirapitanga",
+    nomeCompleto: "Câmara Municipal de Vereadores de Maraú",
   },
 
   // Configurações de paginação
@@ -32,10 +32,10 @@ export const Config = {
   links: {
     appStore: "https://apps.apple.com/",
     playStore: "https://play.google.com/",
-    youtube: "https://youtube.com/@camaraibirapitanga",
-    facebook: "https://facebook.com/camaraibirapitanga",
-    instagram: "https://instagram.com/camaraibirapitanga",
-    site: "https://www.camaraibirapitanga.ba.gov.br",
+    youtube: "https://youtube.com/@camaramarau",
+    facebook: "https://facebook.com/camaramarau",
+    instagram: "https://instagram.com/camaramarau",
+    site: "https://www.camara.marau.ba.gov.br",
   },
 
   // Configurações de mídia
